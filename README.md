@@ -1,4 +1,4 @@
-# machine learning using go
+# data science, machine learning using go
 
 ## TODO
 
