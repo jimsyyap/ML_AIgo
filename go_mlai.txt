@@ -1,0 +1,206 @@
+pathway to golang mlai engineer:
+
+1. Mathematics and Statistics Refresher (2-3 weeks):
+   - Focus on refreshing your statistics knowledge
+   - Learn or review linear algebra concepts crucial for ML
+   - Resources: Khan Academy, 3Blue1Brown YouTube channel for visualizations
+
+2. Python(golang) for Machine Learning (3-4 weeks):
+   - Learn Python(golang) basics if needed
+   - Focus on NumPy, Pandas, and Matplotlib
+   - Resource: "Python for Data Science and Machine Learning Bootcamp" on Udemy
+
+3. Machine Learning Fundamentals (6-8 weeks):
+   - Cover core ML concepts and algorithms
+   - Focus on supervised learning techniques relevant to cybersecurity
+   - Resources: 
+     - Andrew Ng's Machine Learning course on Coursera
+     - "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" book by Aurélien Géron
+
+4. Deep Learning (6-8 weeks):
+   - Learn neural network architectures and deep learning concepts
+   - Focus on anomaly detection and sequence models (relevant for cybersecurity)
+   - Resources:
+     - Deep Learning Specialization on Coursera by Andrew Ng
+     - "Deep Learning" book by Ian Goodfellow et al.
+
+5. Cybersecurity-specific ML applications (4-6 weeks):
+   - Study ML applications in threat detection, network analysis, and intrusion detection
+   - Resources:
+     - "Machine Learning and Security" book by Clarence Chio and David Freeman
+     - Research papers on ML in cybersecurity (Google Scholar is a good source)
+
+6. Practical Projects (ongoing):
+   - Implement ML models for cybersecurity tasks (e.g., network traffic analysis, malware detection)
+   - Participate in cybersecurity-related Kaggle competitions
+   - Contribute to open-source ML cybersecurity projects on GitHub
+
+7. MLOps and Deployment (4 weeks):
+   - Learn about deploying ML models in production environments
+   - Study cloud platforms (AWS, GCP, or Azure) for ML deployment
+   - Resource: "Machine Learning Engineering" book by Andriy Burkov
+
+8. Stay Updated and Network:
+   - Follow cybersecurity ML researchers on Twitter and LinkedIn
+   - Join online communities (Reddit r/MachineLearning, Stack Overflow)
+   - Attend virtual conferences on ML and cybersecurity
+
+Structured courses that could help:
+
+1. Coursera's Machine Learning Specialization by Andrew Ng
+2. Fast.ai's Practical Deep Learning for Coders
+3. edX's Cybersecurity Fundamentals Professional Certificate (for domain knowledge)
+4. Udacity's Machine Learning Engineer Nanodegree
+
+Given your preference for self-study, you can use these structured courses as a guide for topics to cover, but feel free to explore the material at your own pace using various online resources.
+
+Remember to balance theory with practical implementation. Given your background in Golang and statistics, you have a solid foundation to build upon. Focus on applying ML concepts to cybersecurity problems as you learn them.
+
+This pathway should take about 6-8 months of full-time study (40 hours/week). Adjust the timeline as needed based on your progress and depth of study in each area.
+
+//---
+source - https://www.reddit.com/r/learnmachinelearning/comments/vgtrsa/what_are_some_of_the_great_resources_to_learn/
+
+I'm working as a Machine Learning Engineer, and having finished a Master's Degree in ML from one of the best universities in North America, I'll recommend the following:
+
+Learn some of the basic concepts of ML, Andrew NG's course is very beginner friendly and good for that. You should know what Regression, Classification, Clustering is after this course, and also have a vague idea about backpropagation.
+
+Finish all five DeepLearning.ai courses. You may not grasp a 100% of every concept, but a rough understanding of RNNs, CNNs, Attention, CV, etc is good to boot.
+
+Pick up some simple problems on Kaggle, eg: Cats vs Dogs, Titanic, etc. Learn Exploratory Data Analysis, and some basics of Scikit-Learn and Tensorflow/Keras.
+
+After the above steps, you have surface knowledge of ML and can code simple models with the help of docs, which is a good start.
+
+The next step is going deeper into specific topics. If CV interested you, take a harder CV Kaggle notebook and try to understand it, and make relevant submissions to the problem.
+
+If you're into NLP, try studying a bit more about some Transformer architectures, such as the Linformer or Performer.
+
+After you're familiar with the basics of CV and NLP, explore more intricate topics such as Contrastive Learning, Self-Supervised Learning, etc, and the best way to do so is reading relevant papers + testing the author's Github repos. I'd also recommend you to work in an ML role at this point to delve deeper.
+
+Pre-requisites: I'd recommend Mathematics for Machine Learning whenever you're stuck with a math concept. Learn Math as you go.
+
+Learn data science handbook on Github
+https://github.com/andresvourakis/data-scientist-handbook
+
+//---
+Role overview
+The advanced analytics team is responsible for the development of data-related assets to support product development, such as EDA, trend analysis, machine learning model development, productionising of said models, and more. As an individual contributor, you will bring your expertise in data science and/or machine learning to tackle a variety of challenges across different projects. Your ability to adapt and thrive in a fast-paced, multi-disciplinary environment is crucial to our success. This role is located in Adelaide, SA, with a hybrid arrangement of 3 days in the office, 2 days work from home.
+
+In a nutshell, you will help us build reliable machine learning models to ultimately measure the attention people pay to advertisements across a plethora of platforms.
+
+Key responsibilities
+Data science
+. Perform deep data analysis and visualisation to generate and extract insights to inform decision-making.
+. Design and build statistical models to address business challenges and improve products.
+. Process, cleanse, organise, and verify data from disparate sources.
+. Create research questions and undertake deep discovery into data to uncover answers.
+. Collaborate with stakeholders to understand their data needs and provide actionable insights.
+. Conduct A/B testing and other experiments to drive data-driven decisions.
+
+Machine learning
+. Develop, implement, and optimise machine learning models to solve diverse business problems, from data gathering and model training through to deploying and monitoring.
+. Design, training, and apply statistics, mathematical models, and machine learning techniques to create scalable solutions for predictive learning, forecasting, and optimisation.
+. Optimise and fine-tune models for performance, scalability, and efficiency.
+. Define validation and performance metrics for proposed algorithms.
+. Collaborate with software engineers to integrate models into applications and services.
+. Conduct model validation, testing, and evaluation to ensure accuracy and robustness.
+
+
+//---
+here's the litmus test for simplicity:
+. Is your ide optional?
+. Can you build and deploy from the command line?
+. Can a new team member quickly figure out what's going on just by reading the code?
+
+//---
+From Machine Learning with Go (packt)
+...in particular, data scientists are (unfortunately) known to produce bad, inefficient, and unmaintable code.
+
+
+//---
+
+Since you're using Ubuntu, let's focus on setting up a local Kubernetes cluster using alternatives that are commonly available on Ubuntu. Here are a few options you can consider:
+
+1. Microk8s: This is a lightweight Kubernetes distribution that's easy to install on Ubuntu.
+
+2. Kind (Kubernetes in Docker): This runs Kubernetes clusters using Docker containers as nodes.
+
+3. Docker Desktop (if you're using Ubuntu on WSL2 with Windows): This comes with a built-in Kubernetes cluster.
+
+Let's go with Microk8s as it's well-supported on Ubuntu. Here's how you can set it up:
+
+1. Install Microk8s:
+   ```
+   sudo snap install microk8s --classic
+   ```
+
+2. Add your user to the microk8s group:
+   ```
+   sudo usermod -a -G microk8s $USER
+   sudo chown -f -R $USER ~/.kube
+   ```
+   You'll need to log out and log back in for this change to take effect.
+
+3. Start Microk8s:
+   ```
+   microk8s start
+   ```
+
+4. Enable the necessary addons:
+   ```
+   microk8s enable dns ingress
+   ```
+
+5. Set up kubectl to use Microk8s:
+   ```
+   mkdir -p ~/.kube
+   microk8s config > ~/.kube/config
+   ```
+
+6. Verify that your cluster is running:
+   ```
+   kubectl get nodes
+   ```
+
+7. Now, try installing Pachyderm again:
+   ```
+   helm install pachyderm pachyderm/pachyderm \
+     --set deployTarget=LOCAL \
+     --set proxy.enabled=true \
+     --set proxy.service.type=LoadBalancer \
+     --set proxy.host=localhost
+   ```
+The message "Context 'grpc://localhost:80' set as active" indicates that pachctl has successfully set up a connection to your Pachyderm cluster. Let's break down what this means:
+
+1. Connection established: pachctl was able to connect to the Pachyderm service running on your local machine.
+
+2. gRPC protocol: The connection is using gRPC (gRPC Remote Procedure Call), which is a high-performance, open-source framework for making remote procedure calls.
+
+3. localhost:80: This indicates that the Pachyderm service is accessible on your local machine (localhost) through port 80.
+
+4. Context set as active: pachctl uses contexts to manage connections to different Pachyderm clusters. By setting this context as active, it means that all subsequent pachctl commands will use this connection by default.
+
+This message is generally a good sign, as it means:
+
+1. Your Pachyderm installation appears to be running correctly.
+2. The pachctl command-line tool is properly configured to communicate with your Pachyderm cluster.
+3. You should now be able to use pachctl commands to interact with your Pachyderm deployment.
+
+To verify that everything is working correctly, you can try running a few basic pachctl commands:
+
+1. Check the version of Pachyderm you're running:
+   ```
+   pachctl version
+   ```
+
+2. List any existing repositories (there likely won't be any if this is a fresh installation):
+   ```
+   pachctl list repo
+   ```
+
+3. Check the status of your Pachyderm cluster:
+   ```
+   pachctl cluster status
+   ```
+
+If these commands execute without errors, it confirms that your Pachyderm setup is operational and ready to use. If you encounter any issues or have specific tasks you'd like to perform with Pachyderm, feel free to ask, and I'll be happy to assist you further.
