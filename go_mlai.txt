@@ -27,7 +27,7 @@ pathway to golang mlai engineer:
 5. Cybersecurity-specific ML applications (4-6 weeks):
    - Study ML applications in threat detection, network analysis, and intrusion detection
    - Resources:
-     - "Machine Learning and Security" book by Clarence Chio and David Freeman
+     - (not in library) "Machine Learning and Security" book by Clarence Chio and David Freeman
      - Research papers on ML in cybersecurity (Google Scholar is a good source)
 
 6. Practical Projects (ongoing):
@@ -58,12 +58,9 @@ Remember to balance theory with practical implementation. Given your background 
 
 This pathway should take about 6-8 months of full-time study (40 hours/week). Adjust the timeline as needed based on your progress and depth of study in each area.
 
-//---
-source - https://www.reddit.com/r/learnmachinelearning/comments/vgtrsa/what_are_some_of_the_great_resources_to_learn/
-
 I'm working as a Machine Learning Engineer, and having finished a Master's Degree in ML from one of the best universities in North America, I'll recommend the following:
 
-Learn some of the basic concepts of ML, Andrew NG's course is very beginner friendly and good for that. You should know what Regression, Classification, Clustering is after this course, and also have a vague idea about backpropagation.
+Learn some of the basic concepts of ML, Andrew NG's course is very beginner friendly and good for that. You should know what Regression, Classification, Clustering is after this course, and also have a vague idea about back-propagation.
 
 Finish all five DeepLearning.ai courses. You may not grasp a 100% of every concept, but a rough understanding of RNNs, CNNs, Attention, CV, etc is good to boot.
 
